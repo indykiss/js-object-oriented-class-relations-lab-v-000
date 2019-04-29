@@ -16,12 +16,12 @@ class Driver {
         return trip.driverID === this.ID;}.bind(this))
   }
 
-passengers() {
-  return store.passengers.filter(
-    function(passenger) {
-        return passenger.driverID == this.passengerID;}.bind(this);
-  );
-}
+  passengers() {
+    return store.passengers.filter(
+      function(passenger) {
+          return passenger.driverID == this.passengerID;}.bind(this);
+    );
+  }
 
 let passengerID = 0
 
