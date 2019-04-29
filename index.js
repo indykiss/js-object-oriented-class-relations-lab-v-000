@@ -5,7 +5,7 @@ let driverID = 0
 
 class Driver {
   constructor(name) {
-    this.ID = ++driverID
+    this.ID = ++driverID;
     this.name = name
     store.drivers.push(this)}
 }
