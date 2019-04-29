@@ -8,7 +8,7 @@ class Driver {
     this.ID = ++driverID;
     this.name = name
     store.drivers.push(this);}
-}
+
 
 trips() {
   return store.trips.filter(
